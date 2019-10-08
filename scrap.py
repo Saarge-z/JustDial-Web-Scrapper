@@ -6,17 +6,19 @@ req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
 
 webpage = urlopen(req)
 
-soup = BeautifulSoup(webpage)
-print(soup)
+soup = BeautifulSoup(webpage, 'lxml')
 
 
 
-#first_div = soup.find('div', class_ = 'mlistviewpr')
+first_div = soup.find('div', class_ = 'mlistviewpr')
 
-#first_div = soup.find('div', class_='holder')
-# sec_div = first_div.find('div', class_="wrapper filter-section")
-# thrid_div = sec_div.find('div')
-# anchr = thrid_div.find('div', class_ = 'mlistviewpr').a
-#name = anchr.find('span', class_ = 'meditle lng_commn').text
+first_div = soup.find('div', class_='holder')
+#sec_div = first_div.find('div', class_="wrapper filter-section")
+sec_div = first_div.find('div', class_='col-sm-12 col-xs-12 padding0 paddingR0')
+thrid_div = sec_div.find('ul', class_='comp-contact')
+# anchr = thrid_div.find('ul', class_ = 'ic_phn comp-icon')
+# name = anchr.a.text
+frth = thrid_div.find('span', class_='telnowpr')
+name = frth.find('a', class_='tel ttel')
 
-#print(name)
+print(name)
