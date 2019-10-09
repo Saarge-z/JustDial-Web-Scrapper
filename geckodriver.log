@@ -1,0 +1,38 @@
+1570645398478	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Syed\\AppData\\Local\\Temp\\rust_mozprofileyL5J1Y"
+1570645402484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570645402484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570645402485	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570645402497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x36011A,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+[Child 7752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: resource://gre/modules/ExtensionProcessScript.jsm, line 362: NS_ERROR_UNEXPECTED: 
+1570645415086	Marionette	INFO	Listening on port 49871
+1570645415389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570645430066	Marionette	INFO	Stopped listening on port 49871
+[Child 12740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12740[Child 12924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12924, ChroJavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+[GPU 12652, Chrome_Chi
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1570645502795	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Syed\\AppData\\Local\\Temp\\rust_mozprofilenOazwR"
+1570645503911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570645503911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570645503912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570645503912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1570645507116	Marionette	INFO	Listening on port 49947
+1570645507553	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.10, line 220: unreachable code after return statement
+1570645519007	Marionette	INFO	Stopped listening on port 49947
+[Parent 2440, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15687[GPU 10432, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
