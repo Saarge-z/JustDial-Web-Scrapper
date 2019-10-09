@@ -54,3 +54,71 @@ IPDL protocol error: Handler returned error code!
 [Child 14132, Chrome_ChildThread] WARNING: pipe e[GPU 14264, Chrome_
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1570648932279	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Syed\\AppData\\Local\\Temp\\rust_mozprofile5BsJQ1"
+1570648937291	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570648937292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570648937292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570648937292	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1570648943291	Marionette	INFO	Listening on port 51210
+1570648943589	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.10, line 220: unreachable code after return statement
+1570648976730	Marionette	INFO	Stopped listening on port 51210
+[Parent 7636, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6492, Chrome[GPU 9068, Chrome_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1570649266835	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Syed\\AppData\\Local\\Temp\\rust_mozprofileBVmW8O"
+1570649271630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570649271630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570649271630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570649271630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 6760, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15016,console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:125:7\n"
+1570649290381	Marionette	INFO	Listening on port 51306
+1570649290742	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.10, line 220: unreachable code after return statement
+1570649348739	Marionette	INFO	Stopped listening on port 51306
+[Child 12444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12444[GPU 9276, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1570649400968	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Syed\\AppData\\Local\\Temp\\rust_mozprofilejrDeRm"
+1570649407486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570649407486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570649407487	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570649407487	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:125:7\n"
+1570649429724	Marionette	INFO	Listening on port 51419
+1570649429975	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.10, line 220: unreachable code after return statement
+1570649439917	Marionette	INFO	Stopped listening on port 51419
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Child 7104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7104, Chrome[Child 6232, ChJavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+[Parent 11112, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 6164, Chrome_ChildThread] WARNING: pip
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1570649790917	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Syed\\AppData\\Local\\Temp\\rust_mozprofilekpXo2q"
+1570649795591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570649795592	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570649795592	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570649795592	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Child 10616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10616, Chrome_[Parent 14884, Gecko_IOThread] WARNING: file z:/task_1568726031/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1570649810382	Marionette	INFO	Listening on port 51547
+1570649810674	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.10, line 220: unreachable code after return statement
+1570649827272	Marionette	INFO	Stopped listening on port 51547
+[Child 4748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4748,[Child 11060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11060, Ch[GPU 1336, Chrome_C
