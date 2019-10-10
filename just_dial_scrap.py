@@ -15,7 +15,7 @@ def crop(png_image_name):
     area = (160, 220, 400, 300)
     cropped_img = img.crop(area)
     cropped_img.save(png_image_name)
-    cropped_img.show()
+    
 
 
 #csv open
@@ -54,7 +54,7 @@ print('Running Main Code \n')
 
 #total page is 50 for every search----------------->
 try:
-    while (page_no < 5):
+    while (page_no < 3):
         url = urltxt+str(page_no)
         driver.get(url)
         try:
@@ -76,10 +76,6 @@ try:
             address = '"'+address+'"'
             #taking screenshot of the page
             driver.save_screenshot(name.text+".png")
-            #croping the image for the phone number
-            for f in os.listdir('.'):
-                if f.endswith('.png'):
-                    crop(f)
 
             #find website link of the data--------------------------->
             try:  
@@ -109,6 +105,10 @@ try:
     f.close()
     driver.quit()
     print('All drivers closed successfully. Press Enter to exit')
+    #croping the image for the phone number
+    for f in os.listdir('.'):
+        if f.endswith('.png'):
+            crop(f)
     input()
 except Exception as e:
     print('Error detected : '+str(e)+'\n')
