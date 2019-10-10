@@ -8,7 +8,7 @@ import csv
 import traceback
 from PIL import Image
 
-#cropping image for the number
+#cropping image function for the number
 def crop(png_image_name):
     img = Image.open(png_image_name)
     area = (160, 220, 400, 300)
@@ -53,7 +53,7 @@ print('Running Main Code \n')
 
 #total page is 50 for every search----------------->
 try:
-    while (page_no < 5):
+    while (page_no < 7):
         url = urltxt+str(page_no)
         driver.get(url)
         try:
