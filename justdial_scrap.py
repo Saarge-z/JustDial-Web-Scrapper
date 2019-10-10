@@ -1,4 +1,3 @@
-#from number import Functions
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup 
@@ -54,7 +53,7 @@ print('Running Main Code \n')
 
 #total page is 50 for every search----------------->
 try:
-    while (page_no < 3):
+    while (page_no < 5):
         url = urltxt+str(page_no)
         driver.get(url)
         try:
@@ -75,7 +74,10 @@ try:
             address = (soup.find("span",{"class":"adrstxtr"})).text[:-6].strip()
             address = '"'+address+'"'
             #taking screenshot of the page
-            driver.save_screenshot(name.text+".png")
+            pic = name.text+".png"
+            #calling cropping Image function for contact-number
+            driver.save_screenshot(pic)
+            crop(pic)
 
             #find website link of the data--------------------------->
             try:  
@@ -105,10 +107,6 @@ try:
     f.close()
     driver.quit()
     print('All drivers closed successfully. Press Enter to exit')
-    #croping the image for the phone number
-    for f in os.listdir('.'):
-        if f.endswith('.png'):
-            crop(f)
     input()
 except Exception as e:
     print('Error detected : '+str(e)+'\n')
@@ -117,5 +115,3 @@ except Exception as e:
     f.close()
     print("All drivers closed. Please press enter to exit")
     input()
-
-
