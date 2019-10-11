@@ -12,7 +12,7 @@ import pytesseract
 #cropping image function for the number
 def crop(png_image_name):
   img = Image.open(png_image_name)
-  area = (160, 220, 400, 300)
+  area = (160, 220, 620, 300)
   cropped_img = img.crop(area)
   cropped_img.save(png_image_name)
     
