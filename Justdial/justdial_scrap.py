@@ -7,15 +7,19 @@ import lxml
 import csv
 import traceback
 from PIL import Image
+import pytesseract
 
 #cropping image function for the number
 def crop(png_image_name):
-    img = Image.open(png_image_name)
-    area = (160, 220, 400, 300)
-    cropped_img = img.crop(area)
-    cropped_img.save(png_image_name)
+  img = Image.open(png_image_name)
+  area = (160, 220, 400, 300)
+  cropped_img = img.crop(area)
+  cropped_img.save(png_image_name)
     
-
+def ocr(png_image_name):
+  img = Image.open(png_image_name)
+  contact = pytesseract.image_to_string(img)
+  return contact
 
 #csv open
 f = open('Data\\Output.csv','w',encoding='UTF-8')
@@ -29,7 +33,7 @@ urltxt = urltxt.replace("\n","")
 print('URL File Read...........\n')
 txt.close()
 #Header in csv-------------------------------->
-header = 'Name,Address,Website'
+header = 'Name,Address,Website,Contact'
 f.write(header)
 print('Header printed\n')
 
@@ -53,7 +57,7 @@ print('Running Main Code \n')
 
 #total page is 50 for every search----------------->
 try:
-    while (page_no < 7):
+    while (page_no < 5):
         url = urltxt+str(page_no)
         driver.get(url)
         try:
@@ -79,6 +83,8 @@ try:
             driver.save_screenshot(pic)
             crop(pic)
 
+            contact = ocr(pic)
+
             #find website link of the data--------------------------->
             try:  
               website = ((soup.findAll("span",{"class":"mreinfp comp-text"})[-1]).find("a"))
@@ -89,7 +95,7 @@ try:
             except:
               website="None"
             #print data in excel--------------------->
-            f.write('\n'+name.text+","+address+","+website)
+            f.write('\n'+name.text+","+address+","+website+","+contact)
             print("line No " + str(sr_no) +" Printed of page "+str(page_no))
             sr_no = sr_no+1
             time.sleep(12)

@@ -121,4 +121,34 @@ JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cm
 1570649827272	Marionette	INFO	Stopped listening on port 51547
 [Child 4748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
 [Child 4748,[Child 11060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 11060, Ch[GPU 1336, Chrome_C
+[Child 11060, Ch[GPU 1336, Chrome_C1570821139799	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Syed\\AppData\\Local\\Temp\\rust_mozprofileTJQtAK"
+1570821143489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570821143489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570821143489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570821143489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 14144, Gecko_IOThread] WARNING: file z:/task_1568726031/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1570821152788	Marionette	INFO	Listening on port 49960
+1570821153174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,tranlatejs,rsljs&ver_=45.11, line 220: unreachable code after return statement
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.11, line 220: unreachable code after return statement
+1570821181720	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,tranlatejs,rsljs&ver_=45.11, line 220: unreachable code after return statement
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.11, line 220: unreachable code after return statement
+1570821197967	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,tranlatejs,rsljs&ver_=45.11, line 220: unreachable code after return statement
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.11, line 220: unreachable code after return statement
+1570821214356	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,tranlatejs,rsljs&ver_=45.11, line 220: unreachable code after return statement
+JavaScript warning: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.11, line 220: unreachable code after return statement
+JavaScript error: https://static.127777.com/mnbldr/?b=jd_rwd/public/minjs&g=cmnjs,usrjs,fltjs,tranlatejs,dtljs&ver_=45.11, line 2: TypeError: a is undefined
+1570821230219	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1570821230432	Marionette	INFO	Stopped listening on port 49960
+[Child 13532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1568726031/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13532, Chrome_Ch[GPU 11348, Chrome_ChildT
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
