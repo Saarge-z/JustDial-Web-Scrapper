@@ -79,10 +79,11 @@ try:
             address = '"'+address+'"'
             #taking screenshot of the page
             pic = name.text+".png"
-            #calling cropping Image function for contact-number
             driver.save_screenshot(pic)
+            #calling cropping Image function for contact-number
             crop(pic)
 
+            #extracting contacts from Image
             contact = ocr(pic)
 
             #find website link of the data--------------------------->
