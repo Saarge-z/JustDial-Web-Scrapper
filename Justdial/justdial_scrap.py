@@ -15,7 +15,8 @@ def crop(png_image_name):
   area = (160, 220, 620, 300)
   cropped_img = img.crop(area)
   cropped_img.save(png_image_name)
-    
+
+#OCR (optical character recognition)
 def ocr(png_image_name):
   img = Image.open(png_image_name)
   contact = pytesseract.image_to_string(img)
@@ -55,9 +56,9 @@ driver.minimize_window()
 #main code---------------------->
 print('Running Main Code \n')
 
-#total page is 50 for every search----------------->
+#total page is 6 for every search----------------->
 try:
-    while (page_no < 5):
+    while (page_no < 7):
         url = urltxt+str(page_no)
         driver.get(url)
         try:
